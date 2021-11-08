@@ -1,0 +1,41 @@
+Begining: pool-1-thread-1
+Begining: pool-1-thread-3
+Begining: pool-1-thread-2
+Ending: pool-1-thread-3
+Ending: pool-1-thread-1
+Mining block: pool-1-thread-2/tBlock [hash=0000322cac994813f1f10f2115f290bf6d61814ab5ec211135309950197818f0, previousHash=, data=first block, timeStamp=1636407216084, nonce=7278, added=true]
+Ending: pool-1-thread-2
+Begining: pool-2-thread-1
+Begining: pool-2-thread-2
+Begining: pool-2-thread-3
+Ending: pool-2-thread-3
+Mining block: pool-2-thread-1/tBlock [hash=7b0273bbc413c8917a76b8856e6cd461e153756be9088f1574ed2e8039ad1dcb, previousHash=898777e369ade48f7c6573feceef46b8898389f060948dcc860d747ccf6d1e42, data=data, timeStamp=1636407217333, nonce=23564, added=true]
+Ending: pool-2-thread-1
+Ending: pool-2-thread-2
+Begining: pool-3-thread-1
+Begining: pool-3-thread-2
+Begining: pool-3-thread-3
+Ending: pool-3-thread-1
+Ending: pool-3-thread-3
+Mining block: pool-3-thread-2/tBlock [hash=a07299472c31dac7967f9ca5fa3d9806a9818b20f95d9756c27ec2bdb1ceea37, previousHash=7b0273bbc413c8917a76b8856e6cd461e153756be9088f1574ed2e8039ad1dcb, data=data, timeStamp=1636407218285, nonce=29470, added=true]
+Ending: pool-3-thread-2
+Begining: pool-4-thread-1
+Begining: pool-4-thread-2
+Begining: pool-4-thread-3
+Mining block: pool-4-thread-3/tBlock [hash=cf7b92c1d6316e70ce21ae59029ce709526a91a27db18f414ea3fea4987fb0b1, previousHash=6c8ef32ec69929cb3d075405b0a6027f85ce240fbd493f5dcffd20cee2e37433, data=data, timeStamp=1636407218772, nonce=69494, added=true]
+Ending: pool-4-thread-3
+Ending: pool-4-thread-2
+Ending: pool-4-thread-1
+Begining: pool-5-thread-1
+Begining: pool-5-thread-2
+Begining: pool-5-thread-3
+Mining block: pool-5-thread-3/tBlock [hash=d57c46490605957a9db1d7832b1b71e279beca28ce0bc02eb5cc90265ef243ff, previousHash=a4dfb360bf920ef3aa5fd6d8c6542667f6db98c7abd3723ce56762e6199ecd72, data=data, timeStamp=1636407219629, nonce=38097, added=true]
+Ending: pool-5-thread-3
+Ending: pool-5-thread-2
+Ending: pool-5-thread-1
+Final result of the blockchain:
+Block [hash=898777e369ade48f7c6573feceef46b8898389f060948dcc860d747ccf6d1e42, previousHash=, data=first block, timeStamp=1636407216084, nonce=7278, added=true]
+Block [hash=7b0273bbc413c8917a76b8856e6cd461e153756be9088f1574ed2e8039ad1dcb, previousHash=898777e369ade48f7c6573feceef46b8898389f060948dcc860d747ccf6d1e42, data=data, timeStamp=1636407217333, nonce=23564, added=true]
+Block [hash=6c8ef32ec69929cb3d075405b0a6027f85ce240fbd493f5dcffd20cee2e37433, previousHash=7b0273bbc413c8917a76b8856e6cd461e153756be9088f1574ed2e8039ad1dcb, data=data, timeStamp=1636407218285, nonce=29470, added=true]
+Block [hash=a4dfb360bf920ef3aa5fd6d8c6542667f6db98c7abd3723ce56762e6199ecd72, previousHash=6c8ef32ec69929cb3d075405b0a6027f85ce240fbd493f5dcffd20cee2e37433, data=data, timeStamp=1636407218772, nonce=69494, added=true]
+Block [hash=8ae88a5cfb1920ae3cb7423ed000179790486ae0046410ee0498391867aeb89c, previousHash=a4dfb360bf920ef3aa5fd6d8c6542667f6db98c7abd3723ce56762e6199ecd72, data=data, timeStamp=1636407219629, nonce=38097, added=true]
