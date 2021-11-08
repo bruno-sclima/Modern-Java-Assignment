@@ -32,7 +32,9 @@ public class Miners implements Runnable{
 		var phash =this.b.mineBlock(4);
 		if(!phash.equals("0")) {
 			System.out.println("Mining block: "+Thread.currentThread().getName()+"/t"+ b.toString());
-			this.blockchain.add(b);
+			if( blockchain.isEmpty() || b.getPreviousHash().equals(blockchain.get(blockchain.size()-1).getHash())) {
+				this.blockchain.add(b);
+			}
 			
 			System.out.println("Ending: "+Thread.currentThread().getName());
 		}else {
